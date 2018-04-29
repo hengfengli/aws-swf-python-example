@@ -34,6 +34,7 @@ timed-out activity task
 * Slow (> 500 milliseconds)
 * Throttling (push too fast)
 
+If we use Celery to do the same workflow, it would be simpler and more elegant. The problem of Celery is that its monitoring system Flower is not reliable and stable, compared to SWF. Also, in SWF, we don't need to operate a broker system. 
 
 ### References
 * [https://docs.aws.amazon.com/amazonswf/latest/developerguide/swf-sns-tutorial.html](https://docs.aws.amazon.com/amazonswf/latest/developerguide/swf-sns-tutorial.html)
