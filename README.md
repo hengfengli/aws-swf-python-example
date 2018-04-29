@@ -11,7 +11,7 @@ Another intro example can be found in [aws-swf-boto3](https://github.com/jhludwi
 but it only has a single activity task. So I enhanced it with sequential execution of four 
 activities. 
 
-#### Some notes
+### Some notes
 
 I am very confused about `taskList`, which seems to be a very important identity to poll 
 decision and activity tasks. But tutorials do not mention too much about it. 
